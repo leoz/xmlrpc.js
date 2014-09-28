@@ -1,7 +1,7 @@
 {
   "name": "xmlrpc",
   "main": "xmlrpc.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/leoz2011/xmlrpc.js",
   "authors": [
     "Tim Heap <heap.tim@gmail.com>",
@@ -19,10 +19,13 @@
   ],
   "license": "Unlicense",
   "ignore": [
+    "UNLICENSE",
     "**/.*",
     "node_modules",
     "bower_components",
+    "docs",
     "test",
     "tests"
   ]
 }
+
