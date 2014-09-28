@@ -371,7 +371,7 @@
 	XMLRPC.makeType('struct', false, function(value, mkel) {
 		return mkel('struct', Object.keys(value).map(function(key) {
 			return mkel('member', [
-				mkel('name', name),
+				mkel('name', key),
 				mkel('value', XMLRPC.toXMLRPC(value[key], mkel))
 			]);
 		}));
